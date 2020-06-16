@@ -1,5 +1,7 @@
 # Regex101 offline
 
+![Travis CI](https://travis-ci.org/flavienbwk/Regex101-Offline.svg?branch=master)
+
 Offline dockerized version of Regex101, inspired from [ibaaj's Regex101 offline project](https://github.com/ibaaj/Regex101.com-offline-app)
 
 ## Usage
