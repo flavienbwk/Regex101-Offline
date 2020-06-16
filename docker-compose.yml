@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+
+    server:
+        build: .
+        command: python3 -m http.server 8000
+        ports:
+            - 8000:8000
