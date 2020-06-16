@@ -5,6 +5,8 @@
 
 Offline dockerized version of Regex101, inspired from [ibaaj's Regex101 offline project](https://github.com/ibaaj/Regex101.com-offline-app)
 
+[![Docker PWD](https://assets.statping.com/docker-pwd.png)](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/flavienbwk/Regex101-Offline/docker-compose.yml)
+
 ## Usage
 
 You just have to run :
@@ -15,4 +17,4 @@ docker-compose up -d
 
 Server will be exposed by default on port `8000`, edit it in `docker-compose.yml`
 
-[![Docker PWD](https://assets.statping.com/docker-pwd.png)](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/flavienbwk/Regex101-Offline/docker-compose.yml)
+> You may want to use the pre-built Docker image `flavienb/regex101-offline:latest`
